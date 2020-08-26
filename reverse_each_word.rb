@@ -1,10 +1,7 @@
 def reverse_each_word(sentence)
+  new =[]
 
-ralph = sentence.split
+  new.push(sentence)
+  new.map(&:reverse!)
 
-counter = 0
-while counter < ralph.length
-  counter += 1
- return "#{ralph[counter]}".reverse
-end
 end
